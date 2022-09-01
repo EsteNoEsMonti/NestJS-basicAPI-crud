@@ -4,10 +4,10 @@ export class CreateBookDto {
 
   @IsString()
   @IsNotEmpty()
-  name: string1;
+  name: string;
 
   @IsString()
-  author: string1;
+  author: string;
 
   @IsNumber()
   @IsPositive()
